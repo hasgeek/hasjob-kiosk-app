@@ -14,8 +14,8 @@ var runApp = function() {
       'designer_view.html',
       {
         id: 'KioskDesignerWindow',
-        width: 1100,
-        height: 720,
+        width: 1080,
+        height: 1920,
         minWidth: 800,
         minHeight: 600
       },
@@ -39,7 +39,7 @@ var runApp = function() {
  * @see http://developer.chrome.com/trunk/apps/app.runtime.html
  * @see http://developer.chrome.com/trunk/apps/app.window.html
  */
-chrome.app.runtime.onLaunched.addListener(function() {
+chrome.app.runtime.onLaunched.addListener(function(object isKioskSession) {
   runApp();
 });
 
