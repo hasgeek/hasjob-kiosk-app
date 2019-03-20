@@ -6,4 +6,4 @@
     {"fileSystem":["write","retainEntries","directory"]},"accessibilityFeatures.read","accessibilityFeatures.modify"],
     "app":
     {"background":
-      {"scripts":["js/foam.js","js/cab.js","config.js","background_main.js"]}},"kiosk_enabled":true, "kiosk_only": false, "default_locale":"en","icons":{"128":"img/128.png"}}
+      {"scripts":["js/foam.js","js/cab.js","config.js","background_main.js"]}},"kiosk_enabled":true, "kiosk_only": true, "default_locale":"en","icons":{"128":"img/128.png"}}
